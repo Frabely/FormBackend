@@ -23,7 +23,7 @@ namespace FormBackend.Controllers
             _context.Clients?.Add(client);
             _context.SaveChanges();
 
-            return Ok("Client added successfully.");
+            return Ok(client);
         }
         
         //Get
